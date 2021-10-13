@@ -1,5 +1,7 @@
 #source("~/buckets/b1/R/822_epic.r")
 
+#agregando propia semilla
+
 #Necesita para correr en Google Cloud
 #256 GB de memoria RAM
 #300 GB de espacio en el disco local
