@@ -3,6 +3,7 @@
 #agregando propia semilla
 #Segunda versión para el dataset con FE creado en 811_datset_epic_adding
 #Todos los demás features se dejan igual como el script original no se cambiaron palancas
+#Reejecutando ya que el d[ia 13/10 se cort[o por actualizaci[on]]]
 
 #Necesita para correr en Google Cloud
 #256 GB de memoria RAM
@@ -51,7 +52,7 @@ setwd( directory.root )
 
 kexperimento  <- NA   #NA si se corre la primera vez, un valor concreto si es para continuar procesando
 
-kscript         <- "822_epic_adding"
+kscript         <- "822_epic_adding_rerun"
 
 karch_dataset    <- "./datasets/dataset_epic_addingv003.csv.gz"   #este dataset se genero en el script 811_dataset_epic_adding.r
 
