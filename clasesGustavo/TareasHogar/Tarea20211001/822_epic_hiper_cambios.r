@@ -55,9 +55,9 @@ setwd( directory.root )
 
 kexperimento  <- NA   #NA si se corre la primera vez, un valor concreto si es para continuar procesando
 
-kscript         <- "822_epic_adding_rerun"
+kscript         <- "822_epic_V003_hiper_cambios"
 
-karch_dataset    <- "./datasets/dataset_epic_V003_hiper_cambios.csv.gz"   #este dataset se genero en el script 811_dataset_epic_adding.r
+karch_dataset    <- "./datasets/dataset_epic_addingv003.csv.gz"   #este dataset se genero en el script 811_dataset_epic_adding.r
 
 kapply_mes       <- c(202101)  #El mes donde debo aplicar el modelo
 
