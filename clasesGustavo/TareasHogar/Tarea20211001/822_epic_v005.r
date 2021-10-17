@@ -2,11 +2,9 @@
 
 #agregando propia semilla
 
-#Cambios en los rangos		
-#learning rate 0.01		0.2
-#feature fraction 0.05		1
-#num leaves 50		1100
-#FE el que se hizo en 811-dataset-epic-FE2
+#
+#FE el que se hizo en 811-dataset-epic-FE2 y palancas de min3 mean 3
+#max 3 ratio 3
 
 #Necesita para correr en Google Cloud
 #256 GB de memoria RAM
@@ -55,9 +53,9 @@ setwd( directory.root )
 
 kexperimento  <- NA   #NA si se corre la primera vez, un valor concreto si es para continuar procesando
 
-kscript         <- "822_epic_V004"
+kscript         <- "822_epic_V005"
 
-karch_dataset    <- "./datasets/dataset_epic_addingv004.csv.gz"   #este dataset se genero en el script 811_dataset_epic_adding.r
+karch_dataset    <- "./datasets/dataset_epic_addingv005.csv.gz"   #este dataset se genero en el script 811_dataset_epic_adding.r
 
 kapply_mes       <- c(202101)  #El mes donde debo aplicar el modelo
 
