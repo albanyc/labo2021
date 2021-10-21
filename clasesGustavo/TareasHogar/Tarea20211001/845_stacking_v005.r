@@ -1,5 +1,5 @@
 #source("~/buckets/b1/R/845_stacking.r")
-#cambiando los rangos de los HP usando el dataset de v004
+#cambiando los rangos de los HP usando el dataset de v005
 
 
 #Necesita para correr en Google Cloud
